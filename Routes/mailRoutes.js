@@ -1,8 +1,8 @@
 const express = require("express");
 const { getDatamail } = require("../Controller/MailController");
 
-const tokenRouter = express.Router();
+const mailRouter = express.Router();
 
-tokenRouter.route("/").post(getDatamail);
+mailRouter.route("/").post(getDatamail);
 
-module.exports = tokenRouter;
+module.exports = mailRouter;

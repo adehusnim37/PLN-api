@@ -5,7 +5,7 @@ const helmet = require("helmet");
 const userRoutes = require("./Routes/UserRoutes");
 const tokenRoutes = require("./Routes/TokenRoutes");
 const transactionRoutes = require("./Routes/TransactionRoutes");
-const mailRoutes = require("./Routes/MailRoutes");
+const mailRoutes = require("./Routes/mailRoutes");
 require("dotenv").config();
 
 const app = express();
